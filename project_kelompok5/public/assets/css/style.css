@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "poppins", sans-serif;
+}
+
+.btn-danger {
+    background-color: #BD0001;
+    border-radius: 10px;
+    border-color: #BD0001;
+    padding: 10px 45px;
+    color: white;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #BD0001;
+    padding: 10px 45px;
+    color: #BD0001;
+}
+
+
+
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text: black;
+}
+
+.scroll-nav-active {
+    background-color: white;
+    /* border-bottom: 1px solid #BD0001; */
+    box-shadow: 1px 1px 11px 1px rgba(1, 1, 1, .08);
+}
+
+.text-nav-active {
+    color: black;
+}
+
+#hero {
+    background-image: url("../images/beranda1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+}
+
+.hero-title {
+    padding-top: 260px;
+}
+
+.hero-text {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 450px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+/* @media screen and (min-width: 800px) {
+    .hero-text
+        font-size: 35px;
+        font-weight: 600;
+    }
+} */
+
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: #BD0001;
+}
+
+#vidio {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* CSS untuk mengubah warna teks tombol Login menjadi putih */
+.navbar .btn-danger a {
+    color: #fff;
+    /* Warna putih untuk teks */
+    text-decoration: none;
+    /* Menghapus garis bawah jika ada */
+}
+
+.navbar .btn-danger a:hover {
+    color: #fff;
+    /* Warna putih pada hover juga */
+}
+
+<style>.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    transition: transform 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.btn {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+</style>
